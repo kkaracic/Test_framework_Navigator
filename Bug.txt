@@ -1,0 +1,14 @@
+#BUG
+
+Steps to reproduce:
+ 1. Open the Navigator site
+ 2. Click on the button "Kreiraj objekat"
+ 3. Enter the field "Naziv" on your own
+ 4. Enter the city field "Beograd"
+ 5. Enter the post number "74000"
+ 6. Click on the "Odaberi kategoriju" button
+ 7. Choose "Kafa"
+ 8. Click button "Kreiraj"
+
+The app gives the message: "Došlo je do neočekivane greške. Molimo pokušajte ponovo!" and the user must exit the form and reenter.
+The correct behaviour would be to inform the user about the bad data and help him/her correct it. 
