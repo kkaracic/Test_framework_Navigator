@@ -9,5 +9,5 @@ This repository contains a Java-based testing framework using JUnit and Cucumber
 - Maven (for dependency management)
 
 ## Running test
-- For the smoke test, only one is chosen and you can run it using runner.java in folder Framework/test/java/Framework/runner.
+- For the smoke test, only one is chosen and you can run it using runner.java in folder Framework/src/test/java/Framework/runner.
 - Uploaded chromedriver is for version 136.
