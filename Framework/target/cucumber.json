@@ -1,0 +1,197 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11845584900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "input.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 12127739400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Two.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5135772700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Sollar.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 6363133900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Editing_second.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 6543386200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Making_Two_Steps.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 11600249800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OpenPolymerSteps.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Search testing",
+        "description": "",
+        "id": "search-testing;search-testing;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 5452297100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "input.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1091638700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Two.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1421742500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Sollar.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1741163200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Editing_second.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4866252700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Making_Two_Steps.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1012814300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OpenPolymerSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 28217209500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user opens Navigator site",
+            "match": {
+              "location": "input.the_user_opens_Navigator_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13867297900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user clicks on the input field and writes Vijećnica",
+            "match": {
+              "location": "input.the_user_clicks_on_the_input_field_and_writes_Vijećnica()"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2435741200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user presses the RETURN key",
+            "match": {
+              "location": "input.the_user_presses_the_RETURN_key()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4045630500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user verifies that the city hall of Sarajevo is shown as the search result on the screen",
+            "match": {
+              "location": "input.the_user_verifies_that_the_city_hall_of_Sarajevo_is_shown_as_the_search_result_on_the_screen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Search testing",
+    "description": "User should be able to do the search once the site is opened",
+    "id": "search-testing",
+    "keyword": "Feature",
+    "uri": "input.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@login"
+      }
+    ]
+  }
+]
